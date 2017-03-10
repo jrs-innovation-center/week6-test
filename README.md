@@ -15,7 +15,7 @@ package.json
 node_modules/
 public
 └── index.html
-js/
+src/
 ├── app.js
 ├── index.js
 readme.md
@@ -28,7 +28,7 @@ Components should be split up into separate files and placed into folders where 
 Example:
 
 ```
-js/
+src/
 ├── app.js
 ├── components/
 │   └── todos.js
@@ -63,7 +63,6 @@ Please try to keep the HTML as close to the template as possible. Remove the com
 
 Make sure to follow these:
 
-- Follow our [code style](contributing.md#code-style).
 - Use double-quotes in HTML and single-quotes in JS and CSS.
 - Use npm packages for your third-party dependencies and manually remove files that aren't required for your app to run.
 - Use a constant instead of the keyCode directly: `var ENTER_KEY = 13;`
