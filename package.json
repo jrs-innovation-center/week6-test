@@ -16,6 +16,10 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build"
+    "build": "react-scripts build",
+    "api": "json-server --watch db.json --port 8080"
+  },
+  "devDependencies": {
+    "json-server": "^0.9.6"
   }
 }
